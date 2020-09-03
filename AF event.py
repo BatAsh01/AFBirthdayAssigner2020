@@ -3,9 +3,9 @@ l=['Tarun','Hari Om ','Naveen Rathore','Sushant','Jathin','Akash Batchu','Meher'
 l2=len(l)
 print("\nCalling People\n")
 while l!=[] :
-    if len(l)=l2-3:
+    if len(l)==l2-3:
         print("\nMinor Event\n")
-    elif len(l)=l2-9:
+    elif len(l)==l2-9:
         print("\nMajor Event\n")
     a=l[random.randint(0,len(l)-1)]
     l.remove(a)
