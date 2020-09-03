@@ -6,3 +6,4 @@ while l!=[] :
     l.remove(a)
     print(a)
 print(l)
+input()
